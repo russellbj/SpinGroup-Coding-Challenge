@@ -71,7 +71,7 @@ h1
 	height: 430px;
 	left: 0px;
 	background-color: white;
-
+	margin-bottom: 35px;
   	transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear;
   	-webkit-transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear; /* Safari */
 }
