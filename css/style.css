@@ -1,0 +1,100 @@
+.row{
+	margin-top: 100px;
+}
+
+h1
+{
+	margin-top: 40px;
+}
+
+.square{
+	height: 50px;
+	width: 50px;
+	outline: 5px black;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.img-fluid
+{
+	position: relative !important;
+}
+
+.featured
+{
+	position: relative;
+	bottom: 416px;
+	left: 142px;
+}
+
+.rect{
+  transform-origin: 193px 164px;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: translate 4s cubic-bezier(.49,.05,.32,1.04) alternate;
+  animation: translate 4s cubic-bezier(.49,.05,.32,1.04) alternate;
+}
+
+@-webkit-keyframes translate {
+  50% {
+    -webkit-transform: translate(140px, 0px);
+  }
+}
+
+@keyframes translate {
+  50% {
+    transform: translate(140px, 0px);
+  }
+}
+
+.tab-container{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.graphics-container{
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.tab-btn{
+	background: grey !important;
+}
+.tab-btn-selected{
+	background: #ED4337 !important;
+}
+
+.card{
+	width: 300px;
+	height: 430px;
+	left: 0px;
+	background-color: white;
+
+  	transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear;
+  	-webkit-transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear; /* Safari */
+}
+
+.card:hover { 
+  
+    height: 440px;
+
+    background-color: #DBF9FF
+}
+
+.card-text{
+    height:80px;
+    overflow:auto;
+}
+
+.btn{
+	width: 250px;
+	align-content: center;
+	justify-content: center;
+}
+
+.modal-footer{
+	align-content: center;
+	justify-content: center;
+}
