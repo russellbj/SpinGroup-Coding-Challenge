@@ -92,6 +92,10 @@ h1
     height:80px;
     overflow:auto;
 }
+.card-title{
+	height:30px;
+    overflow:auto;
+}
 
 .btn{
 	width: 250px;
