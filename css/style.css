@@ -58,10 +58,8 @@ h1
 }
 
 .graphics-container{
-	margin-top: 20px;
-	text-align: center;
-	justify-content: center;
-	align-content: center;
+	margin: 20px auto;
+  	text-align: center;
 }
 
 .tab-btn{
@@ -77,14 +75,13 @@ h1
 	left: 0px;
 	background-color: white;
 	margin-bottom: 35px;
-  	transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear;
-  	-webkit-transition: width 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear; /* Safari */
+  	transition: width 0.5s, filter 0.5s, height 0.5s, left 0.5s linear, background-color 0.5s linear;
+  	-webkit-transition: width 0.5s, filter 0.25s, height 0.5s, left 0.5s linear, background-color 0.5s linear; /* Safari */
 }
 
 .card:hover { 
-  
     height: 440px;
-
+		
     background-color: #DBF9FF
 }
 
@@ -106,4 +103,9 @@ h1
 .modal-footer{
 	align-content: center;
 	justify-content: center;
+}
+
+svg{
+	margin: 20px auto;
+  	text-align: center;
 }
