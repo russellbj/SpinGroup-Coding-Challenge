@@ -29,8 +29,10 @@ h1
 .featured
 {
 	position: relative;
-	bottom: 417px;
-	left: 142px;
+	bottom: 437px;
+	width: 150px;
+	left: 150px;
+
 }
 
 .rect{
@@ -42,13 +44,13 @@ h1
 
 @-webkit-keyframes translate {
   50% {
-    -webkit-transform: translate(140px, 0px);
+    -webkit-transform: translate(14vw, 0px);
   }
 }
 
 @keyframes translate {
   50% {
-    transform: translate(140px, 0px);
+    transform: translate(14vw, 0px);
   }
 }
 
@@ -70,8 +72,8 @@ h1
 }
 
 .card{
-	width: 300px;
 	height: 430px;
+	width: 300px;
 	left: 0px;
 	background-color: white;
 	margin-bottom: 35px;
@@ -81,7 +83,7 @@ h1
 
 .card:hover { 
     height: 440px;
-		
+	
     background-color: #DBF9FF
 }
 
